@@ -1,0 +1,19 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+    .container {max-width: 1200px; padding: .1rem; margin: auto;}
+
+    .box{
+        width: 650px;
+        margin: auto;
+        /* padding: .1rem; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box div { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #15a400;
+        width: 65px;
+        height: 65px;
+        
+    }
